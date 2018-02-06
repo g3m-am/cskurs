@@ -12,7 +12,6 @@ namespace hello
             {
                 Greeting();
                 Age();
-
                 Settings();
             }
 
@@ -30,7 +29,9 @@ namespace hello
             //}  
 
         }
-
+        /// <summary>
+        /// ustawienia
+        /// </summary>
         private static void Settings()
         {
             Console.ReadKey();
@@ -38,6 +39,9 @@ namespace hello
             Console.ResetColor();
         }
 
+        /// <summary>
+        /// wiek uzytkownika
+        /// </summary>
         private static void Age()
         {
             Console.WriteLine("ile lat: ");
@@ -62,6 +66,9 @@ namespace hello
             }
         }
 
+        /// <summary>
+        /// powitanie
+        /// </summary>
         private static void Greeting()
         {
             Console.WriteLine("wpisz imie: ");
