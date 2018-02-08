@@ -7,7 +7,7 @@ namespace StudentDiary
     class Diary
     {
         // stan (pola)
-        List<float> ratings;
+        List<float> ratings = new List<float>();
 
         // zachowania
         public void AddRating(float rating)
