@@ -8,6 +8,8 @@ namespace hello
     {
         static void Main(string[] args)
         {
+            ValueTypes();
+
             for (;;)
             {
                 Greeting();
@@ -29,6 +31,18 @@ namespace hello
             //}  
 
         }
+
+        private static void ValueTypes()
+        {
+            int maxInt = int.MaxValue;
+            int minInt = int.MinValue;
+            long longMax = long.MaxValue;
+
+            Console.WriteLine("max int = " + maxInt);
+            Console.WriteLine("min int = " + minInt);
+        }
+
+
         /// <summary>
         /// ustawienia
         /// </summary>
